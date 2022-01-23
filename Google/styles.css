@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@300;400;500;700;900&display=swap');
+body{
+    margin:0;
+    padding:0;
+    background-color: #202124;
+    font-family: "Roboto",sans-serif;
+    font-size: 13px;
+    position:relative;
+    display:flex;
+    flex-direction: column;
+    height:100vh;
+    justify-content: space-around;
+}
+
+/* nav-bar styling starts here ------------------------ */
+.nav-bar{
+    display: flex;
+    justify-content: flex-end;
+    gap:20px;
+    align-items: center;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    color:#ffffff;
+}
+.nav-bar a:hover{
+    text-decoration: underline;
+}
+
+.dot-img-container, .profile-img-container{
+    display:flex;
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    justify-content: center; 
+    align-items: center; 
+    padding:6px;
+                  
+}
+
+.dot-img-container:hover, .profile-img-container:hover {
+    background-color: rgba(255, 255, 255, 0.116);
+}
+
+.profile-img{
+    margin-top:3px;
+    width:40px;
+    border-radius: 50%;
+}
+
+/* nine-dots */
+.nine-dots{
+    
+    width:23px;
+    height:23px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    
+}
+.nine-dots div{
+    width:4px;
+    height:4px;
+    border:1px solid #ffffff;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+
+/* nine dots code end here  */
+
+/* nab-bar styling ends here -------------------------------------- */
+
+
+/* main-content styling starts here----------------------------------- */
+
+.main-content{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60vh;
+    gap:20px;
+    /* justify-content: space-around; */
+    /* border: 2px solid red; */
+    
+}
+
+.google-img{
+    width:50vh;
+}
+
+.container-2 div img{
+    width: 17px;
+}
+
+.container-2 div img:hover{
+    cursor: pointer;
+}
+
+.container-2{
+    border: 1px solid rgba(255, 255, 255, 0.24);
+    border-radius: 100px;
+    padding:5px 20px;
+}
+
+.container-2 .search-inp{
+    background-color: transparent;
+    width:500px;
+    color:#ffffff9f;
+    border:none;
+    font-size:15px;
+    padding:10px 15px;
+    font-weight: 500;
+}
+
+.container-2 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-2:hover{
+    border:none;
+    background-color: rgba(255, 255, 255, 0.116);
+}
+
+
+/* container-3 styling */
+
+.container-3{
+    display: flex;
+    justify-content: center;
+    gap:15px;
+}
+.container-3 button{
+   padding:10px 20px;
+   color:#ffffff;
+   background-color: rgba(255, 255, 255, 0.055);
+   border:none;
+   border-radius: 5px;
+
+}
+
+.container-3 button:hover{
+    border:1px solid rgba(255, 255, 255, 0.295)
+}
+
+
+
+/* container-4 styling */
+.container-4 ul{
+    list-style: none;
+    display:flex;
+    gap:10px;
+    justify-content: center;
+
+}
+.container-4 ul li a{
+    color:rgb(92, 145, 243);
+    text-decoration: none;
+}
+.container-4 ul li a:hover{
+    text-decoration: underline;
+}
+.container-4 ul span{
+    color:rgba(255, 255, 255, 0.671)
+}
+
+
+/* footer styling here.. */
+.footer-content{
+    height: 20vh;
+    font-size:15px;
+    background-color: rgba(0, 0, 0, 0.363);
+
+}
+
+.footer-container-1{
+    padding:18px;
+    color:rgba(255, 255, 255, 0.671);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.096);
+}
+.footer-container-2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.footer-container-2 ul{
+    display: flex;
+    list-style: none;
+    gap:10px;
+
+    
+}
+.footer-container-2 ul a{
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.671);
+}
